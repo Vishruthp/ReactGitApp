@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+button{
+	margin-left:10px;
+	width:130px;
+	height:40px;
+	background-color:white;
+	color:blue;
+}
+input {
+	margin-left:10px;
+	width:200px;
+}
+h1{
+	margin-left:10px;
+}
+P{
+	margin-left:10px;
+}
+select {
+	width:200px;
+}
