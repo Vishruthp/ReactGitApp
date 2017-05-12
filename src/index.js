@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import nextpage from './nextPage.js';
 import Request from 'superagent'
 import lodash from 'lodash';
 import ToggleDisplay from 'react-toggle-display';
+import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router';
 class FetchDemo extends React.Component {
 
     constructor(props) {
